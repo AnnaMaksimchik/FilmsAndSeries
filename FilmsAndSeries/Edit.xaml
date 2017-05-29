@@ -23,6 +23,6 @@
         <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Left" Margin="139,232,0,0" VerticalAlignment="Top" Width="119" Background="Gainsboro" Height="27" FontSize="14" FontFamily="Rockwell Extra Bold" Click="SaveButton_Click" Grid.Column="1"/>
         <Label x:Name="label4_Copy" Content="Category:" HorizontalAlignment="Left" Margin="24,45,0,0" VerticalAlignment="Top" FontSize="16" FontFamily="MV Boli" Height="38" Width="82"/>
         <Button x:Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="44,232,0,0" VerticalAlignment="Top" Width="103" FontFamily="Rockwell Extra Bold" FontSize="14" Height="27" Click="CancelButton_Click"/>
-        <Image x:Name="image" Grid.Column="1" HorizontalAlignment="Left" Height="163" Margin="75,10,0,0" VerticalAlignment="Top" Width="194" Source="D:\АИП\C# курсовая\Application1\MyApplication\Pictures\pic4.png" RenderTransformOrigin="0.697,0.578"/>
+        <Image x:Name="image" Grid.Column="1" HorizontalAlignment="Left" Height="163" Margin="75,10,0,0" VerticalAlignment="Top" Width="194" Source="images\pic4.png" RenderTransformOrigin="0.697,0.578"/>
     </Grid>
 </Window>

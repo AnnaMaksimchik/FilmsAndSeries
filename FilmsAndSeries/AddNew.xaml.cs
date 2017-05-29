@@ -53,7 +53,7 @@ namespace FilmsAndSeries
             {
 
                 StringBuilder filmInformation = new StringBuilder();
-                StreamWriter writer = new StreamWriter(new FileStream("D:/АИП/C# курсовая/Application1/FilmsAndSeries/list.txt", FileMode.Append, FileAccess.Write), Encoding.Default);
+                StreamWriter writer = new StreamWriter(new FileStream("D:/АИП/C#курсовая/FilmsAndSeries/FilmsAndSeries/list.txt", FileMode.Append, FileAccess.Write), Encoding.Default);
                 if (film.IsChecked ?? true)
                 {
                     filmInformation.Append("film" + '\t' + '\t');

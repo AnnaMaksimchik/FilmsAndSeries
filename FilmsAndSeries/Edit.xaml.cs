@@ -49,7 +49,7 @@ namespace FilmsAndSeries
         
         public void deleteItem()
         {            
-            string filePath = "D:/АИП/C# курсовая/Application1/FilmsAndSeries/list.txt";
+            string filePath = "D:/АИП/C#курсовая/FilmsAndSeries/FilmsAndSeries/list.txt";
 
             string[] fileLines = File.ReadAllLines(filePath);
             var query = fileLines.Where(n => fileLines.ElementAt(index) != n);
@@ -71,7 +71,7 @@ namespace FilmsAndSeries
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             deleteItem();//удалить выбранный элемент
-            StreamWriter writer = new StreamWriter(new FileStream("D:/АИП/C# курсовая/Application1/FilmsAndSeries/list.txt", FileMode.Append, FileAccess.Write), Encoding.Default);
+            StreamWriter writer = new StreamWriter(new FileStream("D:/АИП/C#курсовая/FilmsAndSeries/FilmsAndSeries/list.txt", FileMode.Append, FileAccess.Write), Encoding.Default);
 
             if (film.IsChecked ?? true)
             {

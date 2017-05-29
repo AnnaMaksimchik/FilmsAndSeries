@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:FilmsAndSeries"
         mc:Ignorable="d"
         Title="Warning" Height="153.48" Width="252.597" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
-    <Grid Height="126" VerticalAlignment="Top" Margin="0,0,0,-2">
+    <Grid Height="124" VerticalAlignment="Top" Margin="0,0,-6,0">
         <Button x:Name="OkButton" Content="Ok" HorizontalAlignment="Left" Margin="87,87,0,0" VerticalAlignment="Top" Width="75" FontFamily="Rockwell Extra Bold" FontSize="14" Click="OkButton_Click"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="74,19,0,0" TextWrapping="Wrap" Text="Not all data entered!" VerticalAlignment="Top" Height="49" Width="140" FontFamily="MV Boli" FontSize="16" TextAlignment="Center"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="73" Source="D:\АИП\C# курсовая\Application1\MyApplication\Pictures\danger3.png" Margin="10,10,0,0"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="73" Source="images\danger2.png" Margin="10,10,0,0"/>
 
     </Grid>
 </Window>

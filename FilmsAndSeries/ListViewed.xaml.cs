@@ -32,7 +32,7 @@ namespace FilmsAndSeries
         private void updateList()
         {
             listBox.Items.Clear();
-            FileStream file = new FileStream("D:/АИП/C# курсовая/Application1/FilmsAndSeries/list.txt", FileMode.Open, FileAccess.Read);
+            FileStream file = new FileStream("D:/АИП/C#курсовая/FilmsAndSeries/FilmsAndSeries/list.txt", FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(file, Encoding.Default);            
             while (!reader.EndOfStream)
             {
@@ -54,7 +54,7 @@ namespace FilmsAndSeries
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             int s = listBox.SelectedIndex;
-            string filePath = "D:/АИП/C# курсовая/Application1/FilmsAndSeries/list.txt";
+            string filePath = "D:/АИП/C#курсовая/FilmsAndSeries/FilmsAndSeries/list.txt";
 
             string[] fileLines = File.ReadAllLines(filePath);
             var query = fileLines.Where(n => fileLines.ElementAt(s) != n);

@@ -146,6 +146,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
+    <Resource Include="images\danger2.png" />
+    <Resource Include="images\main.png" />
+    <Resource Include="images\main1.jpg" />
+    <Resource Include="images\main3.jpg" />
+    <Resource Include="images\main4.jpg" />
+    <Resource Include="images\man2.jpg" />
+    <Resource Include="images\page1.png" />
+    <Resource Include="images\pic.jpg" />
+    <Resource Include="images\pic4.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
