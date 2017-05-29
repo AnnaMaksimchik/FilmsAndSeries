@@ -1,0 +1,25 @@
+film		drama		2011		1+1
+film		fantasy		2003		Pirates of the Caribbean: The Curse of th Black Pearl
+film		drama		1997		Titanic
+film		horror		2000		Final destination
+film		horror		2003		Final destination 2
+film		horror		2006		Final destination 3
+film		horror		2009		Final destination 4
+film		horror		2011		Final destination 5
+film		comedy		1999		American pie
+film		comedy		1994		Dumb and dumber
+film		comedy		2014		Let's be cops
+film		comedy		2010		Grown ups
+film		fantasy		2009		Avatar
+film		adventure	1975		Barry Lyndon
+film		fantasy		2016		Doctor Strange
+film		adventure	2002		Spider man
+film		detective	2009		Sherlock Holmes
+film		comedy		2014		Guardians of the Galaxy
+series		comedy		1994-2004	Friends
+series		drama		2009-2017	Vampire diaries
+series		comedy		2005-2014	How I met your mother
+series		crime		2004-2011	Castle
+film		comedy		2017		Why him?
+series		thriller		2006-2013	Dexter
+film		adventure	2016		Now you see me
